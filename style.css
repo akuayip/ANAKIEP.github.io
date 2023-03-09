@@ -1,0 +1,209 @@
+
+
+*{
+    margin  : 0;
+    padding : 0;
+    font-family : 'Barlow', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #424551;
+}
+
+.bg-img{
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.header{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.header .logo a{
+    font-size: 35px;
+    font-display: 500;
+    letter-spacing: 2px;
+}
+
+.header .logo a span{
+    color: #ff9301;
+    font-size: 45px;
+}
+
+.menubar .menu li{
+    margin: 0 20px;
+}
+
+.menubar .menu li a{
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+
+.menubar .menu li a:hover{
+    color : #ff9301;
+}
+
+.abt{
+    color: #ff9301;
+}
+
+.banner{
+    width: 90%;
+    height: 70%;
+    position: absolute;
+    top: 25%;
+    left: 150px;
+    color:#fff;
+}
+
+.sub-banner{
+    width: 50%;
+    float: left;
+    margin: 30px 0 30px 40 px;
+
+}
+
+.sub-banner h6{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+
+.sub-banner h2{
+    font-size: 80px;
+    font-weight: 800;
+    margin: 0 0 15px;
+    line-height: 1;
+    color: #fff;
+}
+
+.sub-banner h3{
+    font-size: 30px;
+    font-weight: 500;   
+    margin: 0 0 15px;
+    line-height: 1;
+    color: #ff9301;
+}
+
+.sub-banner p{
+    width: 500px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #d8d8d8;
+}
+
+.cv{
+    margin-top: 40px;
+}
+
+.cv a{
+    background: #ff9301;
+    font-size: 19px;
+    letter-spacing: 1px;
+    border: 1px solid #ff9301;
+    padding: 13px 25px;
+    border-radius: 50px;
+    transition: all 1s;
+}
+.cv a:hover{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.link-logo{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #222226;
+    color: #fff;
+
+}
+
+.link-logo ul{
+    margin: 60px auto;
+    text-align: center;
+
+}
+
+.link-logo ul li{
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+.link-logo ul li{
+    font-size: 30px;
+    color: #ff9301;
+}
+
+.link-logo ul li p{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.box{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    width: 24px;
+}
+
+.logo a{
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #bbb;
+    transition: all 1s;
+}
+
+.logo a:hover{
+    color: #ff9301;
+}
+
+.label{
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    color: #bbb;
+    font-size: 19px;
+    line-height: 24px;
+    height: 24px;
+    white-space: nowrap;
+    transform-origin: 100% 0;
+    text-align: right;
+    padding-right: 75px;
+    transform: rotate(90deg);
+}
+
+.label:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 50px;
+    height: 1px;
+    background: #ff9301;
+}
